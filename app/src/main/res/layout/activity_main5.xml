@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EEEEEE">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cookie4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="новогоднее печенье "
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ингредиенты:"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 гр шоколад\n
+500 гр мука\n
+220 гр сливочное масло\n
+220 гр сахар\n
+3 шт яйца\n
+соль\n
+1 яичный белок\n
+200 гр сахар\n
+1/2 ч.л. лимонный сок"
+                android:textSize="13dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Способ приготовления:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как приготовить новогоднее печенье. Для начала возьмем два яйца и хорошенько разотрем их с сахарным песком или сахарной пудрой, добавим немного соли. На водяной бане или на медленном огне растопим шоколад со сливочным маслом. Далее перемешаем «яичную» и «шоколадную» части, постепенно добавляя муку. Получившееся тесто замесим и раскатаем в пласт толщиной в полсантиметра. Противень для выпечки смазываем маргарином или сливочным маслом, немного присыпаем мукой и выкладываем на него вырезанные фигурки. Помещаем противень в разогретую до 200 градусов духовку минут на 10. Для глазури хорошенько взобьем белок. При этом добавляем лимонный сок и пудру до образования тягучей однородной массы. Глазурь помещаем в кондитерский мешок и рисуем с его помощью узоры. Праздничное новогоднее печенье готово!"
+                android:textSize="13dp"
+                android:layout_marginLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:adjustViewBounds="true"
+                android:divider="@drawable/separator"
+                android:dividerPadding="3dp"
+                android:showDividers="middle">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Назад"
+                android:onClick="back3"
+                android:layout_gravity="center"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#9E9E9E"
+                android:background="#EEEEEE"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Вопросы?"
+                android:onClick="mail3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#9E9E9E"
+                android:background="#eeeeee"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

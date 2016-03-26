@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="#eeeeee">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:scaleType="centerCrop"
+              android:src="@drawable/cookie2" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="австрийское мендальное"
+              android:textAllCaps="true"
+              android:layout_marginTop="5dp"
+              android:textSize="25dp"
+              android:fontFamily="sans-serif-light"
+              android:textColor="#000000"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="печенье"
+              android:textAllCaps="true"
+              android:textSize="25dp"
+              android:fontFamily="sans-serif-light"
+              android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ингредиенты:"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250г жареного миндаля\n
+150г сахарной пудры\n
+3 яичных белка\n
+9-10 ст.л. муки\n
+2-3 ч.л. сахара ванильного\n
+1 ч.л. корицы молотой\n
+¼ ч.л. миндальной эссенции"
+            android:textSize="13dp"
+            android:layout_marginLeft="20dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Способ приготовления:"
+              android:textSize="15dp"
+              android:textStyle="bold"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="10dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Как приготовить рождественское миндальное печенье. Неочищенный обжаренный миндаль вместе с шелухой измельчить в блендере. В устойчивую пену взбить яичные белки, постепенно подсыпая сахарную пудру. Отложить 3-4 ст.л. взбитых белков для глазури. Осторожно перемешать, не давая белкам оседать, с молотым миндалем, ванильным сахаром, эссенцией миндальной и корицей, постепенно подсыпая просеянную муку. Тесто должно получиться липким, завернуть емкость с ним в фольгу и на полчаса убрать в холод. Выложить тесто на припудренный мукой стол, руками раскатать в пласт 0,5см толщиной, вырезать с помощью формочек печенья, например, в виде звезд. Выложить звездочки на застеленный смазанной маслом пергаментной бумагой противень, поставить в нагретую до 150-160 градусов духовку, выпекать 10-15мин (важно не пересушить!), достать из духовки, смазать отложенным белком, поставить обратно еще на 5-7мин – глазурь должна будет подсохнуть. Печенье получается мягким, но плотным, с корично-ореховым вкусом, его можно выложить в жестяную баночку, уложив несколько печенюшек друг на друга и красиво завязав цветной лентой, и преподнести, таким образом, в подарок. Приятного чапития!"
+              android:textSize="13dp"
+              android:layout_marginLeft="5dp"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:adjustViewBounds="true"
+              android:divider="@drawable/separator"
+              android:dividerPadding="3dp"
+              android:showDividers="middle">
+          <Button
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:text="Назад"
+              android:onClick="back"
+              style="?android:attr/buttonBarButtonStyle"
+              android:textColor="#9E9E9E"
+              android:background="#eeeeee"
+              android:layout_marginTop="5dp"/>
+              <Button
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:text="Вопросы?"
+                  android:onClick="mail"
+                  style="?android:attr/buttonBarButtonStyle"
+                  android:textColor="#9E9E9E"
+                  android:background="#eeeeee"
+                  android:layout_marginTop="5dp" />
+          </LinearLayout>
+
+      </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

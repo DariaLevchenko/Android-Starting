@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#Eeeeee">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cookie10"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="печенье с кусочками"
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="шоколада"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ингредиенты:"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="240 г пшеничной муки\n
+180 г сахара\n
+125 г сливочного масла\n
+100 г шоколада\n
+1 яйцо\n
+1/2 ч.л. соды\n
+соль"
+                android:textSize="13dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Способ приготовления:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как приготовить печенье с шоколадными кусочками. Сливочное масло заранее достать из холодильника, чтобы оно размягчилось.Добавить к сливочному маслу сахар и вбить яйцо, с помощью миксера взбить все до растворения крупинок сахара и однородности.Всыпать в массу соду и добавить 2 щепотки соли, затем всыпать просеянную муку и перемешать до однородности.Шоколад с помощью ножа мелко нарезать и всыпать в тесто, перемешать.Застелить противень пергаментом, с помощью ложки выложить массу в виде отдельных печений небольшого размера.Поставить противень с заготовками для печенья в нагретую до 180 градусов духовку.Выпекать печенье с шоколадными кусочками в течение 10-15мин до легкого зарумянивания.Приятного чаепития!"
+                android:textSize="13dp"
+                android:layout_marginLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:adjustViewBounds="true"
+                android:divider="@drawable/separator"
+                android:dividerPadding="3dp"
+                android:showDividers="middle">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Назад"
+                android:onClick="back1"
+                android:layout_gravity="center"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#9E9E9E"
+                android:background="#Eeeeee"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Вопросы?"
+                android:onClick="mail1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#9E9E9E"
+                android:background="#eeeeee"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

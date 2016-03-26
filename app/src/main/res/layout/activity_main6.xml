@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EEEEEE">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cookie8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="шоколадное печенье "
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ингредиенты:"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300-350г муки\n
+200г сливочного масла\n
+150г сахара\n
+100г шоколада\n
+1 яйцо\n
+2 ч.л. ванильного сахара\n
+1 ч.л. разрыхлителя"
+                android:textSize="13dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Способ приготовления:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Как приготовить простое шоколадное печенье. Растереть масло с обычным и ванильным сахаром, вбить яйцо, перемешать до однородности, всыпать какао и снова перемешать. Всыпать в массу просеянную муку и разрыхлитель, вымесить тесто. Раскатать тесто и вырезать из него печенье желаемой формы, выложить его на застеленный пергаментом противень, выпекать 20мин в разогретой до 180 градусов духовке, шоколад растопить и с помощью кондитерского шприца отсадить на печенье. Приятного чаепития!"
+                android:textSize="13dp"
+                android:layout_marginLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:adjustViewBounds="true"
+                android:divider="@drawable/separator"
+                android:dividerPadding="3dp"
+                android:showDividers="middle">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Назад"
+                android:onClick="back4"
+                android:layout_gravity="center"
+                android:textColor="#9E9E9E"
+                android:background="#EEEEEE"
+                android:layout_marginTop="5dp"
+                style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Вопросы?"
+                android:onClick="mail4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="#9E9E9E"
+                android:background="#eeeeee"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>
